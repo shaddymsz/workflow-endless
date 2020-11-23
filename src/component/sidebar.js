@@ -17,10 +17,8 @@ function Sidebar() {
 			</div>
         <div class="side-menu-container">
 				<ul class="nav navbar-nav">
-                    
-                    <li><a href="https://github.com/Mailtrain-org/mailtrain/wiki"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> </a></li>
-                    <li><a href="https://mailtrain.wordpress.com/"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></a></li>
-				</ul>
+					<li><a href=''> Leads</a></li>                    
+                    </ul>
 			</div>
 		</nav>  
 </div>

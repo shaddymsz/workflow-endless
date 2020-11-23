@@ -16,7 +16,7 @@ body {
 /*main side bar*/
 .msb {
   width: 250px;
-  background-color: #2f3c4e;
+  background-color: #242e3c;
   position: fixed;
   left: 0;
   top: 0;
@@ -121,7 +121,7 @@ ul.nv, ul.ns {
 /*main content wrapper*/
 .mcw {
   margin-left: 250px;
-  margin-top: 130px;
+  margin-top: 90px;
   position: relative;
   min-height: 100%;
  /*content view*/
@@ -150,7 +150,7 @@ a, a:focus, a:hover {
 
 .page-main-header {
   background-color: #fff;
-  height: 80px;
+  height: 60px;
   position: fixed;
   top: 0;
   z-index: 15;
@@ -214,6 +214,7 @@ a, a:focus, a:hover {
 .main-header-right .nav-right > ul > li:first-child .search-form .form-group {
   width: 100%;
   position: relative;
+  margin-top:8px;
 }
 .search-form input {
   border: 1px solid #eff0f1;
@@ -229,8 +230,7 @@ a, a:focus, a:hover {
 
 .switch-sm .switch {
   width: 25px;
-  height: 16px;
-  margin-top: 10px;
+
   margin-bottom: 0px;
   float: left;
 }
@@ -334,3 +334,38 @@ ul {
   right: 20px;
   bottom: 10px;
 }
+
+
+.tabs{
+  font-family:arial;
+  margin:0 auto;
+  width:70%;
+  text-align:center;
+  margin-top:10px;
+}
+
+
+
+.tab-buttons{
+  margin-bottom:40px;
+}
+
+button{
+  margin-right:35px;
+  font-size:70px;
+  background:transparent;
+  border:none;
+  outline:none;
+  padding:10px 70px ;
+  cursor:pointer;
+  color:rgba(0,0,0,.4);
+  transition:all ease-in-out .2s;
+  border-bottom:2px solid transparent;
+  
+}
+.active{
+  border-bottom:2px solid #42b3f4;
+ 
+  color:black;
+}
+@import '../src/assets/bootstrap.css';

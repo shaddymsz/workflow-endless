@@ -43,7 +43,7 @@ function List() {
         <ModalFooter>
           <Button color="secondary" onClick={toggle}>Cancel</Button>
           
-          <Button color="primary" onClick={toggle}>Create Rule</Button>{' '}
+          <Button outline color="primary" onClick={toggle}>Create Rule</Button>{' '}
         </ModalFooter>
       </Modal>
             </div>

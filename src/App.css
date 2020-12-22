@@ -246,11 +246,11 @@ a{
   font-size: 30px !important;
 }
 
-.btn-primary {
+/* .btn-primary {
   background-color: #f5f5f5 !important;
   border-color: #406ae0 !important;
   color: #406ae0 !important;
-}
+} */
 
 .navbar-nav {
   padding: 25px;
@@ -337,14 +337,13 @@ ul {
 
 
 .tabs{
+  border: none;
   font-family:arial;
   margin:0 auto;
-  width:70%;
-  text-align:center;
+  width:90%;
+  text-align:left;
   margin-top:10px;
 }
-
-
 
 .tab-buttons{
   margin-bottom:40px;
@@ -356,12 +355,19 @@ button{
   background:transparent;
   border:none;
   outline:none;
-  padding:10px 70px ;
-  cursor:pointer;
+  padding:10px 20px ;
+  /* cursor:pointer; */
   color:rgba(0,0,0,.4);
   transition:all ease-in-out .2s;
   border-bottom:2px solid transparent;
   
+}
+
+button :focus{
+  outline: 0px !important;
+}
+.tab-buttons :active{
+  border: #406ae0 !important;
 }
 .active{
   border-bottom:2px solid #42b3f4;

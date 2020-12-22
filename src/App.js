@@ -4,6 +4,11 @@ import Header from './component/header';
 import Landing from './component/landing';
 import React from 'react'
 import Modal from './component/modal'
+import OnBording from './component/templates/onBording'
+import Nurture from './component/templates/nurture';
+import ReEngagement from './component/templates/reengagement';
+import CustomerRetention from './component/templates/customerRetention';
+import Ecommerce from './component/templates/eCommerce';
 
 function App() {
   return (
@@ -14,24 +19,30 @@ function App() {
         <div className="mcw cv">
         <div className="tabs">
        <Tabs>
-         <Tab label="Tab 1">
+         <Tab label="All">
            <Modal />
          </Tab>
-         <Tab label="Tab 2">
-         <Modal />
+         <Tab label="Welcome and on-boarding">
+         <OnBording />
          </Tab>
-         <Tab label="Tab 3">
-         <Modal />
+         <Tab label="Nurture series">
+         <Nurture />
          </Tab>
-         <Tab label="Tab 4">
-         <Modal />
+         <Tab label="Re-engagement">
+         <ReEngagement />
          </Tab>
-         <Tab label="Tab 5">
-         <Modal />
+         <Tab label="Customer Retention">
+         <CustomerRetention />
+         </Tab>
+         <Tab label="E-Commerce">
+         <Ecommerce />
+         </Tab>
+         <Tab label="Conditional">
+         <Landing/>
          </Tab>
        </Tabs>
       </div>
-      <Landing />
+      
         </div>
     </div>
   );
